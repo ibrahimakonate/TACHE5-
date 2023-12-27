@@ -1,0 +1,55 @@
+/*-------------------------------- Partie Timeline --------------------------------------------*/
+
+.timeline-object {
+    display: flex;
+    align-items: center;
+    margin-top: -18px;
+    position: relative;
+}
+
+.timeline-object.complete::after {
+    content: '';
+    display: block;
+    position: absolute;
+
+    width: 2px;
+    height: 500px;
+    background-color: rgba(217, 204, 204, 0.66);
+
+    left: 18px;
+    top: 55px;
+    transform: translateX(-50%);
+}
+
+.timeline-status {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    /* background-color: orange; */
+    margin-top: -237px;
+    background: orange;
+    background: radial-gradient(at center, orange, #FF910100);;
+}
+
+
+
+.timeline-content {
+    margin-left: 15px;
+}
+
+.timeline-content h4 {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.timeline-content span {
+    color: #103B27;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=ea6200&c2=ff9101&gt=r&gd=dcc
+*/

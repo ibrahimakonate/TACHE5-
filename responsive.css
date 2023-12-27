@@ -1,0 +1,259 @@
+@media screen and (max-width:600px) {
+    body{
+        background-size: cover;
+        height: 80vh;
+        width: 100%;
+    }
+
+    .nav_bar{
+        display: flex;
+        flex-direction: column;
+        font-size: 13px;
+    }
+
+
+    .btn_download{
+        padding: 10px 10px;
+    }
+
+
+    .avatar img {
+        width: 50%;
+    }
+
+    .part2_header {
+        margin: 350px auto;
+        width: 100%;
+    }
+    /*------------------------------ Section 1 ----------------------------*/
+
+
+    .section1 .titre{
+        margin-left: 10px;
+
+    }
+
+    .section1 .menu{
+        margin-top: 2px;
+    }
+
+    .section1 .menu ul{
+        margin-left: -40px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .menu ul a{
+        padding: 0;
+        font-size: 13px;
+    }
+
+
+    .titre h2{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+
+    .titre p{
+        margin-top: 0;
+        font-size: 13px;
+        font-weight: bold;
+        padding-bottom: 30px;
+    }
+
+    /* Partie portfolio */
+
+    .portfolio{
+        width: 98vw;
+        padding: 1%;
+    }
+
+
+    .portfolio1{
+        width: 100vw;
+        flex-direction: column;
+    }
+
+
+    .porf2{
+        margin-right: 0;
+    }
+
+
+    .porf1, .porf2, .porf3, .porf4,
+    .porf5, .porf6{
+        width: 100vw;
+    }
+
+
+    .portfolio2{
+        width: 100vw;
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .image2{
+        width: 97%;
+        /* height: 50%; */
+        padding: 9px 0px;
+    }
+
+    .image3 {
+        width: 97%;
+        height: 50%;
+        padding: 15px 2px;
+    }
+
+    .image6{
+        width: 97%;
+    }
+
+    .image8{
+        padding: 10px 0px;
+        width: 97%;
+    }
+
+
+    .image9 {
+        width: 97%;
+        height: 87%;
+        padding: 17px 0px;
+    }
+
+    /*-------------------------- Section 2 -------------------------------------*/
+
+    .section2{
+        width: 96%;
+        margin-top: 90px;
+        padding: 0px 15px;
+    }
+
+    .a_propos{
+        position: absolute;
+        left: 13px;
+    }
+
+
+    .a_propos h2{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .a_propos p{
+        margin-top: 5px;
+        font-weight: bold;
+        font-size: 10px;
+        color: #808080b8;
+    }
+
+    .paragraph p {
+        font-size: 15px;
+}
+
+    .sect2{
+        width: 100%;
+        margin-top: 120px;
+    }
+
+    .all{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .circle-wrap{
+        margin: 30px auto;
+    }
+
+
+    /*------------------------------ Section 3 ------------------------------------------*/
+    
+    .section3{
+        flex-direction: column;
+        padding: 15px;
+    }
+    
+
+    .sect3 p {
+        font-size: 13px;
+    }
+
+    .sect3 h4 {
+        font-size: 15px;
+    }
+
+    .sect3 h5 {
+        font-size: 11px;
+    }
+
+    .sect3 h6 {
+        font-size: 13px;
+    }
+
+
+    .work_exp h2{
+        margin-bottom: 0;
+    }
+
+    .work_exp p{
+        margin-top: 3px;
+        margin-bottom: 35px;
+    }
+
+    /*------------------------------ Section 4 ------------------------------------------*/
+    
+    .section4{
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .timeline-status{
+        display: none;
+    }
+
+    .timeline-content{
+        margin-left: 0;
+    }
+    
+    .timeline-object.complete::after{
+        height: 0;
+    }
+    
+    .timeline-content h4 {
+        padding: 5px 0px;
+    }
+    
+    .timeline-object{
+        margin-top: 5px;
+    }
+
+    .education h2{
+        margin-bottom: 0;
+    }
+
+    .education p{
+        margin-top: 5px;
+        margin-bottom: 25px;
+    }
+    
+    /*------------------------------ Section 5 ------------------------------------------*/
+
+    .section5{
+        display: flex;
+        justify-content: center;
+    }
+
+    .section5 ul{
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+    }
+
+    
+    .section5>ul:nth-child(1)>li:nth-child(1) {
+        padding-top: 20px;
+    }
+}
+
+
+
